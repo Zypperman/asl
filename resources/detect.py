@@ -115,4 +115,4 @@ def detect(model):
         payload_header = b"--frame\r\n" b"Content-Type: image/jpeg\r\n\r\n"
         payload_footer = b"\r\n"
 
-        yield (payload_header + frame + payload_footer)
+        yield payload_header + frame + payload_footer
