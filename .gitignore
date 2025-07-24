@@ -1,9 +1,12 @@
 # Created by https://www.toptal.com/developers/gitignore/api/flask
 # Edit at https://www.toptal.com/developers/gitignore?templates=flask
 
+<<<<<<< Updated upstream
 /ASL_venv
 bus.jpg
 
+=======
+>>>>>>> Stashed changes
 ### Flask ###
 instance/*
 !instance/.gitignore
@@ -35,7 +38,7 @@ var/
 wheels/
 share/python-wheels/
 *.egg-info/
-.installed.cfg
+#.installed.cfg
 *.egg
 MANIFEST
 
@@ -131,13 +134,6 @@ celerybeat.pid
 # SageMath parsed files
 *.sage.py
 
-# Environments
-.venv
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
 
 # Spyder project settings
 .spyderproject
@@ -317,3 +313,7 @@ dist
 .svelte-kit
 
 # End of https://www.toptal.com/developers/gitignore/api/node
+
+# --- ASL_venv exclusion rules commented out below ---
+#ASL_venv/
+#ASL_venv/*
