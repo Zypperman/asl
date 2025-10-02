@@ -32,9 +32,9 @@ def index():
     return render_template("index.html")
 
 
-#@app.route("/predict")
-#def predict():
-#    return Response(detect(model), mimetype="multipart/x-mixed-replace; boundary=frame")
+@app.route("/predict")
+def predict():
+    return Response(detect(model), mimetype="multipart/x-mixed-replace; boundary=frame")
 
 
 if __name__ == "__main__":
